@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+}
+
+.menu {
+    font-size: 25px;
+    padding: 10px;
+    list-style: none;
+    margin-top: 0;
+    top: 0;
+    cursor: pointer;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+
+.links {
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: capitalize;
+}
+
+
+#welcome {
+    color:chartreuse;
+    background: linear-gradient(180deg, red, blue);
+    height: 800px;
+}
+#videos {
+    background: linear-gradient(180deg, red, blue);
+}
+
+a {
+    font-size:25px;
+    color: chartreuse;
+}
+
+a:hover {
+    color:white;
+    font-size: 32px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.head {
+    font-size:35px;
+    text-decoration: underline;
+    color: chocolate;
+    letter-spacing: 150%;
+}
